@@ -1,0 +1,68 @@
+
+/*FUENTE PARA HOLA SOY RACHEL*/
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
+/*FUENTE PARA CADA APARTADO DE MENU*/
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&family=Qwitcher+Grypen:wght@400;700&display=swap');
+
+/*1-Diseño al cuerpo principal*/
+body{
+    background: #fefedf;
+    text-align: center;
+    /*MODIFICA EL INICIO PARA QUE EL INICIO SE VEA SIN PROBLEMA*/
+    padding-top: 50px;
+}
+
+/*Diseño para el conjunto del menu*/
+.menu{
+    background: #845ec2;
+    font-family: monospace;
+    font-size: 20px;
+    /*Deja el menu fijo bajes o subas*/
+    position: fixed;
+    /*Coloca el menu hasta arriba sin dejar espacios*/
+    top: 0%;
+    /*Es necesario para evitar espacios de izquier a derecha*/
+    width: 100%;
+    /*puede utilizarlos en dado caso que desee mas espacio entre el menu*/
+    padding-top:20px;
+    padding-bottom: 20px;
+
+}
+
+/*Diseño para cada enlace individual*/
+a{
+    color: #fcf8ff;
+    text-decoration: none;
+    padding-left: 33px;
+    
+}
+
+/*Diseño cuando pogas el cursor en cada enlace de menu*/
+a:hover{
+    font-size: 25px;
+    text-decoration: underline;
+    color: #9b89b3;
+}
+
+/*2. Diseño al inicio*/
+
+/*Diseño para mi nombre*/
+span{
+    font-family: "Qwitcher Grypen", cursive;
+    font-size: 40px;
+    color: #845ec2;
+    font-size: 110px;
+}
+
+h1, h2{
+    font-family: "Playwrite DE Grund", cursive;
+}
+
+p, .libro-fav{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.libro-fav{
+color: #845ec2;
+}
+
